@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.main-image img{
+    display: block;
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.access-image img{
+    display: block;
+    padding-top: 20px;
+    margin:auto;
+    width: 80vw;
+}
+
+header{
+    background-image: url("images/bg-header-mobile.png");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+}
+
+.logo{
+    padding-top: 120px;
+}
+
+.logo img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.header-text{
+    margin-top: 50px;
+}
+
+header h1 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: #4d545a;
+}
+
+header p{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #adb1b4;
+    padding-top: 20px;
+}
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button{
+    width: 80%;
+    padding: 20px 50px;
+    border-radius: 40px;
+    background-color: #26bba5;
+    border:none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: white;
+    font-family: 1.5rem;
+    font-weight: 700;
+}
+
+.MAC{
+    margin-top: 10px;
+    background-color: #6174ff !important;
+}
+
+                    /* ------------------- SECTION ------------------------- */
+
+.main-text h2{
+    padding-top: 80px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: #4d545a;
+}
+
+.main-text p{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #adb1b4;
+    padding: 30px 20px 0 20px;
+    
+}
+
+ .column-section{
+     margin-top: 50px;
+    font-family: 'Bai Jamjuree', sans-serif;
+} 
+
+.item-1{
+    text-align: center;
+    padding:0px 25px;
+    color: #4d545a;
+
+}
+
+.item-1 p{
+    padding-top: 10px;
+    color: #adb1b4;
+}
+
+.item-2{
+    text-align: center;
+    padding:40px 25px;
+    color: #4d545a;
+
+}
+
+.item-2 p{
+    padding-top: 10px;
+    color: #adb1b4;
+}
+
+.item-3{
+    text-align: center;
+    padding:40px 25px;
+    color: #4d545a;
+
+}
+
+.item-3 p{
+    padding-top: 10px;
+    color: #adb1b4;
+}
+
+.access-clipboard{
+    margin-top: 100px;
+}
+
+.access-text{
+    padding: 40px 25px;
+}
+
+.access-text h2{
+    text-align: center;
+    padding: 0px 35px 0px 35px;
+    color: #4d545a;
+}
+
+.access-text p{
+    padding-top: 25px;
+    color: #adb1b4;
+    
+}
+
+.workflow{
+    text-align: center;
+}
+
+.workflow h4, h3{
+    color: #4d545a;
+}
+
+.workflow h3{
+    padding-top: 20px;
+}
+
+.workflow p{
+    color: #adb1b4;
+    padding: 20px 25px;
+}
+
+.workflow img{
+    padding: 40px 20px;
+}
+
+.logos-showcase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.logos-showcase img{
+    display: block;
+    padding: 50px 40px;
+}
+
+.download{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.download h3{
+    color: #4d545a;
+    font-size: 1.5rem;
+    padding: 0px 50px;
+}
+
+.download p{
+    color: #adb1b4;
+    padding: 40px 30px;
+}
+
+footer{
+    margin-top: 80px;
+}
+
+footer img{
+    display: block;
+    margin:auto;
+}
+
+.links{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.links li{
+    padding: 10px;
+}
+
+.social-icons{
+    margin-top: 20px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+.social-icons img{
+    padding: 10px;
+}
+
+.links li a{
+    color: #797d80;
+    text-decoration: none;
+}
+
+/* ====================TABLET DESIGN ============== */
+
+@media only screen and (min-width: 768px){
+    .main-image img{
+        display: block;
+        width: 40vw;
+        float: left;
+        margin-top: 100px;
+    }
+    
+    .access-image img{
+        display: block;
+        padding-top: 20px;
+        margin:auto;
+        width: 80vw;
+    }
+
+    header img{
+        width: 200px;
+        height: 250px;
+    }
+    header h1 {
+        font-family: 'Bai Jamjuree', sans-serif;
+        text-align: center;
+        font-weight: 600;
+        color: #4d545a;
+    }
+    
+    header p{
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Bai Jamjuree', sans-serif;
+        color: #adb1b4;
+        padding: 20px 60px;
+    }
+
+    .buttons{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .buttons button{
+        width: 40%;
+        padding: 20px 50px;
+        border-radius: 40px;
+        background-color: #26bba5;
+        border:none;
+        font-family: 'Bai Jamjuree', sans-serif;
+        color: white;
+        font-family: 1.5rem;
+        font-weight: 700;
+    }
+    
+    .MAC{
+        margin-left: 20px;
+        background-color: #6174ff !important;
+    }
+
+    /* SECTION */
+    main{
+        width: 100%;
+    }
+    .main-text p{
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Bai Jamjuree', sans-serif;
+        color: #adb1b4;
+        padding: 40px 50px 0 50px;
+        
+    }
+
+    .column-section{
+        margin-top: 50px;
+       font-family: 'Bai Jamjuree', sans-serif;
+       width: 60%;
+       float: right;
+   } 
+   
+   .item-1{
+       text-align: center;
+       padding:0px 25px 0px 0px;
+       color: #4d545a;
+       
+   
+   }
+   
+   .item-1 p{
+       padding-top: 10px;
+       color: #adb1b4;
+   }
+   
+   .item-2{
+       text-align: center;
+       padding:40px 10px;
+       color: #4d545a;
+   
+   }
+   
+   .item-2 p{
+       padding-top: 10px;
+       color: #adb1b4;
+   }
+   
+   .item-3{
+       text-align: center;
+       padding:0px 25px 0px 0px;
+       color: #4d545a;
+   
+   }
+   
+   .item-3 p{
+       padding-top: 10px;
+       color: #adb1b4;
+   }
+
+   .access-clipboard{
+       margin-top: 400px;
+   }
+
+    .access-text h3{
+    text-align: center;
+    }
+    .access-text p{
+       text-align: center;
+   }
+
+
+
+
+   .workflow>.workflow-sections{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    }
+
+    .workflow h4, h3{
+        color: #4d545a;
+    }
+
+    .workflow h3{
+        padding-top: 20px;
+    }
+
+    .workflow p{
+        color: #adb1b4;
+        padding: 20px 25px;
+    }
+
+    .workflow img{
+        padding: 40px 20px;
+    }
+
+    .workflow-item-1{
+        width: 33.3%;
+    }
+    .workflow-item-2{
+        width: 33.3%;
+    }
+    .workflow-item-3{
+        width: 33.3%;
+    }
+
+    .logos-showcase{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .logos-showcase img{
+        display: block;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    
+    footer img{
+        margin: 0;
+        padding: 90px 0px 0px 20px;
+    }
+
+    .links li{
+        list-style-type: none;
+    }
+
+    .social-icons{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px 0px 0px;
+        margin-top: 0;
+    }
+
+}
+
+/* ==========================DESKTOP==========================*/
+
+@media only screen and (min-width: 992px){
+
+    body p{
+        font-size: 18px;
+    }
+    .main-image img{
+        display: block;
+        width: 45%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .access-image img{
+        display: block;
+        padding-top: 20px;
+        margin:auto;
+        width: 70vw;
+    }
+    
+    header{
+        background-image: url("images/bg-header-desktop.png");
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+    }
+    
+    .logo{
+        padding-top: 100px;
+    }
+    
+    .logo img{
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 150px;
+      height: 150px;
+    }
+
+    header h1 {
+        font-family: 'Bai Jamjuree', sans-serif;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #4d545a;
+    }
+    
+    header p{
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Bai Jamjuree', sans-serif;
+        color: #adb1b4;
+        padding-top: 20px;
+    }
+    
+    .buttons{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .buttons button{
+        width: 20%;
+        padding: 20px 50px;
+        border-radius: 40px;
+        background-color: #26bba5;
+        border:none;
+        font-family: 'Bai Jamjuree', sans-serif;
+        color: white;
+        font-family: 1.5rem;
+        font-weight: 700;
+        
+    }
+
+    .buttons button:hover{
+        cursor: pointer;
+        background-color: rgba(38, 187, 165, 0.9);
+    }
+    
+    .MAC{
+        background-color: #6174ff !important;
+        margin-top: 0;
+    }
+
+    .MAC button:hover{
+        background-color: rgba(97, 116, 255, 0.3) !important;
+    }
+
+    .main-text{
+        width: 60%;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .main-text h2{
+        font-size: 2rem;
+    }
+
+    .main-text p{
+        font-size: 18px;
+    }
+
+    .main-image{
+        margin-top: 50px;
+    }
+
+    .column-section{
+     margin-top: 30px;
+     width: 40%;
+     margin-right: 100px;
+    }
+
+    .access-clipboard{
+        width: 100%;
+        margin-top: 600px;
+    }
+
+    .access-text{
+        width: 50%;
+        margin:auto;
+    }
+
+    .access-text h2{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .access-text p{
+        font-size: 18px;
+    }
+
+    .workflow{
+        margin-top: 100px;
+    }
+
+    .workflow-header h3{
+        font-size: 2rem;
+        
+    }
+
+    .workflow-header p{
+        font-size: 18px;
+    }
+
+    .workflow-sections{
+        width: 90%;
+        margin:auto;
+        margin-top: 30px;
+    }
+
+    /* ======================== FOOTER ================*/
+
+    footer{
+        width: 100%;
+    }
+
+    footer img{
+        align-items: center;
+        justify-content: flex-start;
+        display: flex;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        width: 50.3%;
+    }
+
+    .links li{
+        padding-left: 90px;
+    }
+
+    .social-icons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 15.3%;
+    }
+}
+
